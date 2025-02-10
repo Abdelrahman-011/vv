@@ -1,0 +1,45 @@
+/* About.css */
+
+.about-container {
+    padding: 3em 2em;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    color: #c8102e;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.2em;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-container p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 2em 1.5em;
+    }
+
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .about-container p {
+        font-size: 1.1rem;
+    }
+}

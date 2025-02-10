@@ -1,0 +1,61 @@
+/* Services.css */
+
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .services-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .package-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+  }
+  
+  .package-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .package-card h2 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .package-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .package-card button {
+    padding: 0.5em;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .package-card button:hover {
+    background-color: #0056b3;
+  }
+  

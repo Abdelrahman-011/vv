@@ -1,0 +1,38 @@
+/* Home container */
+.home {
+    text-align: center;
+    padding: 3em 1em;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading */
+  .home h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph */
+  .home p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  /* Link (button) styling */
+  .home a {
+    display: inline-block;
+    padding: 1em 2em;
+    margin: 1em 0;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the link */
+  .home a:hover {
+    background-color: #1e90ff; /* Light blue on hover */
+  }

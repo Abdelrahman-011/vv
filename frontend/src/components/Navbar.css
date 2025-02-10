@@ -1,0 +1,46 @@
+/* Navbar container */
+nav {
+    display: flex;
+    flex-direction: column; /* Stack logo and links vertically */
+    align-items: center; /* Center everything horizontally */
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo styling */
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem; /* Add space below the logo */
+  }
+  
+  /* Unordered list (ul) styling */
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem; /* Add space between links */
+  }
+  
+  /* List item (li) styling */
+  nav ul li {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Link styling */
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  nav ul li a:hover {
+    color: #1e90ff; /* Light blue on hover */
+  }
